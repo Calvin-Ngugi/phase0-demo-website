@@ -18,7 +18,7 @@
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                 <a class="nav-link" href="#backdrop">About me</a>
-                <a class="nav-link" href="#">Contacts</a>
+                <a class="nav-link" href="#contact">Contacts</a>
             </div>
         </div>
     </nav>
@@ -28,41 +28,107 @@
         <br>
     </div>
     <div id="backdrop">
-    <div class="container">
-        <h1 class="title">Welcome To My Demo Website</h1>
-        <p class="paragraph">
-            My name is Cavin Ngugi and this is my demo website. I have created this site to showcase the skills I have picked
-            up from my time studying in Moringa School. I have also included a CSS framework known as bootstrap to make it look more
-            stylish with less code. 
-        </p>
-        <p class="paragraph">
-            In my time in Moringa school we have been taught various technologies and how to use them. A good example would be: -
-        </p>
+        <div class="container">
+            <h1 class="title2">Welcome To My Demo Website</h1>
+            <p class="paragraph2">
+                My name is Cavin Ngugi and this is my demo website. I have created this site to showcase the skills I
+                have picked
+                up from my time studying in Moringa School. I have also included a CSS framework known as bootstrap to
+                make it look more
+                stylish with less code.
+            </p>
+            <p class="paragraph2">
+                In my time in Moringa school we have been taught various technologies and how to use them. A good
+                example would be: -
+            </p>
             <ol class="list">
                 <li>Version Control Systems i.e. Git</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
             </ol>
-        <p class="paragraph">
-            This information was taught in only a span of 2 weeks! Welp they weren't kidding when they said it was a coding
-            bootcamp. From these 2 weeks we have all spent some sleepless nights trying to finish assignments on time while also
-            debugging.
-        </p>
-        <center>
-            <img alt="debugging" src="./assets/debugging.jpeg" id="bugs">
-        </center>
-        <p class="paragraph">That's a little joke right there :)</p>
+            <p class="paragraph2">
+                This information was taught in only a span of 2 weeks! Welp they weren't kidding when they said it was a
+                coding
+                bootcamp. From these 2 weeks we have all spent some sleepless nights trying to finish assignments on
+                time while also
+                debugging.
+            </p>
+            <center>
+                <img alt="debugging" src="./assets/debugging.jpeg" id="bugs">
+            </center>
+            <p class="paragraph2">That's a little joke right there :)</p>
+            <h2 class="title2">My Dreams and goals</h2>
+            <p class="paragraph2">
+                Once I finish my studies in Moringa, I plan to get some work experience in the software development
+                field
+                before I finally end up starting my own company.
+            </p>
+            <p class="paragraph2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eveniet nulla laborum nobis in laboriosam recusandae libero doloribus, voluptate qui pariatur autem illum odio veritatis. Esse quam repudiandae pariatur neque.</p>
+            <p class="paragraph2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eveniet nulla laborum nobis in laboriosam recusandae libero doloribus, voluptate qui pariatur autem illum odio veritatis. Esse quam repudiandae pariatur neque.</p>
+        <br>
+        </div>
     </div>
-</div>
-<br>
+    <br>
     <div class="container">
-        <h2 class="title">My Dreams and goals</h2>
-        <p class="paragraph">
-            Once I finish my studies in Moringa, I plan to get some work experience in the software development field before I 
-            finally end up starting my own company.
-        </p>
+        <div class="card-group">
+            <div class="card">
+                <img src="./assets/motivation1.jpg" class="card-img-top" alt="motivation1">
+                <div class="card-body">
+                    <h4 class="card-title">GET INSPIRED</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quos sunt quasi quidem natus obcaecati ipsam ducimus. Exercitationem reiciendis molestias minus perspiciatis, dolore dolor vero id fugiat earum?</p>
+                    <button class="btn btn-primary">GO</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/motivation2.jpg" class="card-img-top" alt="motivation2">
+                <div class="card-body">
+                    <h4 class="card-title">GET MOTIVATED</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae incidunt id repudiandae, earum dolor veritatis consequatur error voluptate soluta consectetur, provident esse necessitatibus ex nulla.
+                    </p>
+                    <button class="btn btn-warning">BEYOND</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/motivation3.jpg" class="card-img-top" alt="motivation3">
+                <div class="card-body">
+                    <h4 class="card-title">REACH FOR SUCCESS</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum illo ab illum voluptate quod repellat exercitationem error facere fuga dicta pariatur laudantium culpa, et, nihil vitae, atque cum a sint?</p>
+                    <button class="btn btn-danger">PLUS ULTRA!!!</button>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- The Contact Section -->
+    <div id="contact">
+		<div class="container">
+			<div class="contact-left">
+				<h3>Contact</h3>
+                <p class="paragraph">For more information. Reach me using the following:</p>
+                <ul class="list2">
+                    <li>Mobile Number: 0701141934</li>
+                    <li>Email: calvin.ngugi@student.moringaschool.com</li>
+                    <li>Or you can send a query using the form below</li>
+                </ul>
+				<form action="">
+
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name">
+
+					<label for="email">Email</label>
+					<input type="text" id="name" name="name">
+
+					<label for="message">Message</label>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+					<input type="submit" class="send-message-cta" value="Send message">
+				</form>
+			</div>
+			<div class="contact-right">
+			 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5188.582870726129!2d36.82296579995634!3d-1.2855628718139482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d44a2b268f%3A0x9bf054c4310afcf7!2sVeteran%20House%20Management!5e0!3m2!1sen!2ske!4v1625558427736!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</div>
+	</div>
     <script src="index.js"></script>
 </body>
 
